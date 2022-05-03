@@ -1,37 +1,102 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<main>
+    <div class="main">
 
-You can use the [editor on GitHub](https://github.com/karimGhost/Tribute-page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+        <section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h1> Sir David atenbourgh</h1>
 
-### Markdown
+<figure class="container" >
+    <p class="p"> The man who loves nature</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+ <img  class="img1" src="image/david1.jpg"   alt="David Atenbourgh" >
+ <img class="img2" src="image/david2.jpg"   alt="David Atenbourgh">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+    <figcaption>david atenbourgh on the tv show planet-earth</figcaption>
+</figure>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+</section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/karimGhost/Tribute-page/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<section class="about">
+    <article>
+        <h2></h2>
+        <ul>
+            <p class="abt"><strong>Awards</strong></p>
+            
+            
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            <span class="sp"><strong><li> 1972 </strong> <div class="cont"> <p>thisisis</p> </div> he won the Cherry Kearton Medal and Award  </li></span>
+
+    
+    <span><strong><li>1980: </strong>   BAFTA Fellowship  </li></span>
+
+            
+            <span><strong><li>1981: </strong>  Kalinga Prize   </li></span>
+
+<span><strong><li>1996: </strong> Kew International Medal </li></span>
+<span><strong><li>2000: </strong> International Cosmos Prize & RSPB Medal  </li></span>
+
+<strong><li>2003: </strong> Michael Faraday Prize  </li></span>
+<span><strong><li>2004: </strong>  José Vasconcelos World Award of Education & Descartes Prize</li></span>
+<span><strong><li>2005: </strong> Nierenberg Prize </li></span>
+<span><strong><li>2009: </strong> Princess of Asturias Award</li></span>
+<span><strong><li>2010: </strong> Fonseca Prize  </li></span>
+
+
+        </ul>
+    </article>
+</section>
+
+</div>
+
+
+<footer>
+<p class="pfoot">check out more about davidAttenbourgh on this wiki <a class="foot" href ="https://en.wikipedia.org/wiki/David_Attenborough#Life_and_family" target="_blank">~link~</a> </p>
+
+    
+</footer>
+</main>
+
+
+<script>
+
+let pic1 = document.querySelector(".img1");
+
+
+setInterval(function() {pic1.style.opacity = -1, pic1.style.transition = "2s"} ,10000);
+
+
+setInterval(function() {pic1.style.opacity = 10, pic1.style.transition = "2s"} ,20000);
+
+let pic2 = document.querySelector(".img2");
+
+setTimeout(function() {pic2.style.opacity = 7, pic2.style.transition='2s' } ,);
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
