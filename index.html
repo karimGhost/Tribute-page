@@ -20,8 +20,8 @@
     <p class="p"> The man who loves nature</p>
 
 
- <img  class="img1" src="image/david1.jpg"   alt="David Atenbourgh" >
- <img class="img2" src="image/david2.jpg"   alt="David Atenbourgh">
+ <img  class="img1" src="david1.jpg"   alt="David Atenbourgh" >
+ <img class="img2" src="david2.jpg"   alt="David Atenbourgh">
 
 
 
